@@ -1,9 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/moaali/reactinator/.assets/images/intro.png" alt="Intro"> <br/> <br/>
+  <img src="https://github.com/moaali/reactinator/blob/master/.assets/Images/intro.png" alt="Intro"> <br/> <br/>
   🚀🚀🚀<br/>Minimalistic boilerplate to start developing <b>React JS</b> applications in just few seconds easily with the included tooling. Using <b>Webpack 3</b>, <b>Mobx 3</b>, <b>Babel 6</b>.<br/>🚀🚀🚀
 </p>
 
-### Table of Contents
+## Table of Contents
 - [Features](#features)
 - [State Management](#state-management)
 - [Installation](#installation)
@@ -12,7 +12,7 @@
 - [License](#license)
 
 
-### Features
+## Features
 - Quick scaffolding
 - Next generation JavaScript (**ES6+**)
 - Next generation CSS with (**SASS** and **CSSNext**)
@@ -25,11 +25,11 @@
 - **Cross platform** compitable
 
 
-### State Management
+## State Management
 This boilerplate uses **MobX** for app state management. In the following section, a basic to-do list app in which all components donot communicate with each other for updating their state, instead they communicate with a common **store** handled by **MobX** and rerender if any change happens in the store values they are linked to. **Reference to basic to-do list app to see it in action**.
 
 
-### Installation
+## Installation
 To start using this boilerplate, all what you have to do is copy and paste the following commands in your terminal.
 
 ```shell
@@ -40,7 +40,7 @@ To start using this boilerplate, all what you have to do is copy and paste the f
 ```
 
 
-### Folder Structure
+## Folder Structure
 This boilerplate structure is inspired by [**Ryan Florence**](https://gist.github.com/ryanflorence/daafb1e3cb8ad740b346) and [**Alexis Mangin**](https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1) ideas of react app structure.
 ```
 app 
@@ -99,7 +99,7 @@ app
 └── index.jsx 
 ```
 
-### Commands
+## Commands
 Below are the available terminal commands used by this boilerplate:<br /><br />
 **`npm start`** : Running into development mode but without fancy webpack dashboard plugin.<br />
 **`npm run dev`** : Running into development mode with fancy webpack dashboard plugin ebabled.<br />
@@ -111,7 +111,7 @@ Below are the available terminal commands used by this boilerplate:<br /><br />
 **`npm run lint`** : Linting both JavaScript & Sass files.<br />
 
 
-### License
+## License
 🍟 **MIT**
 
 
