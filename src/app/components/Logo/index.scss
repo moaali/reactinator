@@ -1,0 +1,15 @@
+@import 'settings/colors';
+
+.Logo a {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  text-decoration: none;
+}
+
+.LogoText {
+  margin: 0;
+  padding: 0;
+  margin-left: 0.5em;
+  color: $color-grey-pivotal;
+}

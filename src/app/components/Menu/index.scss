@@ -1,0 +1,47 @@
+@import 'settings/colors';
+
+.MenuWrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  flex: 1 0 0;
+  padding: 3em 0;
+}
+
+.MenuIcon {
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 1.5em;
+  fill: $color-grey-minor;
+  font-size: 14px;
+}
+
+.MenuLink {
+  display: block;
+  white-space: nowrap;
+  padding: 1em 0;
+  line-height: 1;
+  transition: all 250ms ease-in-out;
+  color: $color-grey-major;
+
+  &:focus,
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $color-grey-muted;
+  }
+
+  &:hover,
+  &-active,
+  &-active:active,
+  &-active:visited {
+    color: $color-variant-primary;
+
+    & .MenuIcon {
+      fill: $color-variant-primary;
+      transition: all 250ms ease-in-out;
+    }
+  }
+}

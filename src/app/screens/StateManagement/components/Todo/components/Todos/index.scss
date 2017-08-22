@@ -1,0 +1,29 @@
+@import 'settings/colors';
+
+.todosItem {
+  display: flex;
+  flex-flow: row nonwrap;
+  align-items: center;
+  padding: 0.5em 0;
+  border-bottom: 1px solid $color-grey-muted;
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.todosItemText {
+  flex: 1 0 0;
+  padding: 0 1em;
+  line-height: 1;
+  margin: 0;
+
+  .todosItem.compeleted & {
+    text-decoration: line-through;
+  }
+}
+
+.todos input {
+  margin: 0;
+  position: relative;
+}
