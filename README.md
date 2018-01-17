@@ -6,31 +6,10 @@
 <br>
 
 ## Table of Contents
-- [Features](#features)
-- [State Management](#state-management)
 - [Installation](#installation)
 - [Folder Structure](#folder-structure)
 - [Commands](#commands)
 - [License](#license)
-
-<br>
-
-## Features
-- Quick scaffolding
-- Next generation JavaScript (**ES6+**)
-- Next generation CSS with (**SASS** and **CSSNext**)
-- **Bootstrap 4** based
-- **Mobx** for state managemnt
-- [**React Icons**](https://github.com/gorangajic/react-icons) icons bundle
-- Industry-standard routing (React Router v4.x.x)
-- **SEO** optimized
-- Extensible directory structure
-- **Cross platform** compitable
-
-<br>
-
-## State Management
-This boilerplate uses **MobX** for app state management. In the following section, a basic to-do list app in which all components donot communicate with each other for updating their state, instead they communicate with a common **store** handled by **MobX** and rerender if any change happens in the store values they are linked to. **Reference to basic to-do list app to see it in action**.
 
 <br>
 
@@ -51,20 +30,17 @@ This boilerplate structure is inspired by [**Ryan Florence**](https://gist.githu
 ```
 app 
 ├── components 
-│   ├── Container 
+│   ├── Layout 
 │   │   ├── index.jsx 
 │   │   ├── index.scss 
 │   │   └── ... 
 │   │ 
-│   ├── Logo 
-│   ├── Menu 
-│   ├── Sidebar 
+│   ├── Animation
 │   └── ... 
 │
 ├── screens 
-│   ├── About 
+│   ├── Index 
 │   │   ├── components 
-│   │   │   ├── Hero 
 │   │   │   ├── Content 
 │   │   │   └── ... 
 │   │   │ 
@@ -73,7 +49,6 @@ app
 │   │   ├── index.scss 
 │   │   └── ... 
 │   │ 
-│   ├── Home 
 │   ├── 404 
 │   └── ... 
 │ 
@@ -83,15 +58,13 @@ app
 │   │   └── ... 
 │   │ 
 │   ├── services 
-│   │   ├── RequestService.jsx 
-│   │   └── ... 
-│   │ 
 │   ├── static 
 │   │   ├── favicon.ico 
 │   │   └── ... 
 │   │ 
 │   ├── stores 
-│   │   ├── clientStore.jsx 
+│   │   ├── clientStore.js
+│   │   ├── index.js
 │   │   └── ... 
 │   │ 
 │   ├── styles 
