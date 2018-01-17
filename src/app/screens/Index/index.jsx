@@ -4,12 +4,12 @@ import { Animation } from 'components';
 import Content from './components/Content';
 import './index.scss';
 
-export default class NotFound extends Component {
+export default class Intro extends Component {
   render() {
     return (
       <Animation>
         <Helmet>
-          <title>Reactinator :: 404</title>
+          <title>Reactinator :: Home</title>
         </Helmet>
         <Content />
       </Animation>

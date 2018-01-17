@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import { AppContainer } from 'react-hot-loader';
 import es6Promise from 'es6-promise';
+import { AppContainer } from 'react-hot-loader';
+import { Provider } from 'mobx-react';
 import 'babel-polyfill';
 import 'whatwg-fetch';
 import 'bootstrap/dist/css/bootstrap.css';
+import * as stores from './app/shared/stores';
 import App from './app';
 
 es6Promise.polyfill();
@@ -12,9 +14,11 @@ es6Promise.polyfill();
 const
   render = Component => {
     ReactDom.render(
-      <AppContainer>
-        <Component />
-      </AppContainer>,
+      <Provider {...stores}>
+        <AppContainer>
+          <Component />
+        </AppContainer>
+      </Provider>,
       document.getElementById('root')
     );
   };

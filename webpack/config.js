@@ -66,7 +66,7 @@ module.exports = {
   watch: !manifest.IS_PRODUCTION,
   entry,
   output: {
-    path: manifest.paths.build,
+    path: manifest.paths.public,
     publicPath: '/',
     filename: manifest.outputFiles.bundle,
   },

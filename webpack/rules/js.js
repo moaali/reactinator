@@ -1,5 +1,5 @@
 module.exports = {
   test    : /\.(js|jsx)$/,
-  exclude : /(node_modules|build|dist\/)/,
+  exclude : /(node_modules|public\/)/,
   use     : ['babel-loader'],
 };

@@ -1,0 +1,15 @@
+#Sidebar {
+  height: 100vh;
+  text-align: center;
+  border-right: 1px solid #ccc;
+  min-width: 200px;
+  float: left;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  .Menu {
+
+  }
+}

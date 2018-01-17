@@ -15,7 +15,7 @@ const
  */
 
 const devServer = {
-  contentBase        : manifest.IS_PRODUCTION ? manifest.paths.build : manifest.paths.src,
+  contentBase        : manifest.IS_PRODUCTION ? manifest.paths.public : manifest.paths.src,
   historyApiFallback : true,
   port               : manifest.IS_PRODUCTION ? 3001 : 3000,
   compress           : manifest.IS_PRODUCTION,

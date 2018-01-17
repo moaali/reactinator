@@ -5,7 +5,7 @@ const
 
 module.exports = new HtmlWebpackPlugin({
   template: path.join(manifest.paths.src, manifest.entries.html),
-  path: manifest.paths.build,
+  path: manifest.paths.public,
   filename: manifest.outputFiles.html,
   minify: {
     collapseWhitespace: true,
