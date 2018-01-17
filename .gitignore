@@ -29,12 +29,3 @@ npm-debug.log*
 # Folders
 node_modules/
 build/
-
-
-
-# ----------------------------
-# Extras
-# ----------------------------
-
-# Assets Folder
-.assets
