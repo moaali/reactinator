@@ -1,5 +1,4 @@
 <p align="center">
-  <img src="https://github.com/moaali/reactinator/blob/master/.assets/Images/intro.png" alt="Intro"> <br/> <br/>
   🚀🚀🚀<br/><br/>Minimalistic boilerplate to start developing <b>React JS</b> applications in just few seconds easily with the included tooling. Using <b>Webpack 3</b>, <b>Mobx 3</b>, <b>Babel 6</b>.<br/><br/>🚀🚀🚀
 </p>
 
